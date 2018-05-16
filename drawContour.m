@@ -5,17 +5,17 @@ function drawContour()
     path='./';
     imgfn='img1.mhd';
     gtfn='gt1.nii.gz';
-    sruacmfn='res_v5_acm2_preSub1.nii.gz';
+    sruacmfn='sru_acm2_preSub1.nii.gz';
     srufn='res_v5_preSub1.nii.gz';
-    ssaefn='res_v5_acm_preSub1.nii.gz';
+    ssaefn='ssae_preSub1.nii.gz';
     advfn='res_v5_adversarial_preSub1.nii.gz';
     
-    malffn = 'preSub_wdice_wce_1012_104000.nii.gz';
-    unetfn = 'denseCrf3dSegmMap_pelvic.nii.gz';
+    malffn = 'presub1_malf.nii.gz';
+    unetfn = 'unet_presub1.nii.gz';
 %     vnetfn = 'preSub_wce_wdice_adImpo_viewExp_1106_sub1.nii.gz';
-    vnetfn = 'preSub1_clean_166000.nii.gz';
-    asdnetfn = 'preSub1_74000_clean_mt.nii.gz';
-    resunetfn = 'res_v5_preSub1.nii.gz';
+    vnetfn = 'preSub1_vnet.nii.gz';
+    asdnetfn = 'preSub1_asdnet.nii.gz';
+    resunetfn = 'resunet_preSub1.nii.gz';
     info = mha_read_header([path,imgfn]);
     mrimg = single(mha_read_volume(info));
     [gt gthead]=rest_ReadNiftiImage([path,gtfn]);
