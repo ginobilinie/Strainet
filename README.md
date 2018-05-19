@@ -3,4 +3,4 @@ As I have deleted some sensitve new functions, the codes may have some bugs in s
 
 The main entrance is runGAN.py.
 
-I will upload the whole copy of code to my github(https://github.com/ginobilinie/Strainet) if it is accepted.
+I will write more about how to run the code if our paper is finally is accepted.
