@@ -1,6 +1,6 @@
-# Strainet
-The work I have done for pelvic organ segmentation, implemented by pytorch.
+This is a Pytorch 2D version of the STRAINet. Of course, I have a lot of new functions implemented besides the ones I mention in TNNLS.
+As I have deleted some sensitve new functions, the codes may have some bugs in some cases. If you have any problems about the code, please contact dongnie@cs.unc.edu
 
+The main entrance is runGAN.py.
 
-
-convertMedImgFormat.py: convert the nii.gz to mhd required by the challenge official holder
+I will upload the whole copy of code to my github(https://github.com/ginobilinie/Strainet) if it is accepted.
