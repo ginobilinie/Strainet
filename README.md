@@ -3,4 +3,4 @@ As I have deleted some sensitve new functions, the codes may have some bugs in s
 
 The main entrance is runGAN.py.
 
-I'll upload all the codes and explanations in later days since I'm busy hunting for jobs and graduate recently.
+I'll upload explanations in later days.
